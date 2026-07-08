@@ -1,0 +1,15 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
+  <title id="title">Phishexa favicon</title>
+  <defs>
+    <linearGradient id="g" x1="9" y1="8" x2="55" y2="56" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#13C8B5"/>
+      <stop offset="0.52" stop-color="#8B6FE8"/>
+      <stop offset="1" stop-color="#D9FF3F"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="#070A12"/>
+  <path d="M32 10L49 20V44L32 54L15 44V20L32 10Z" stroke="url(#g)" stroke-width="4.5" stroke-linejoin="round"/>
+  <rect x="22" y="24" width="20" height="18" rx="4" fill="#FFF8EF"/>
+  <path d="M23 28L32 35L41 28" stroke="#074C5B" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M13 32H51" stroke="#D9FF3F" stroke-width="3" stroke-linecap="round" stroke-dasharray="2 7"/>
+</svg>

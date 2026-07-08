@@ -1,0 +1,41 @@
+<svg width="960" height="320" viewBox="0 0 960 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Phishexa logo</title>
+  <desc id="desc">Phishexa wordmark with an abstract context signal mark.</desc>
+  <defs>
+    <linearGradient id="markGradient" x1="42" y1="46" x2="246" y2="260" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#13C8B5"/>
+      <stop offset="0.48" stop-color="#8B6FE8"/>
+      <stop offset="1" stop-color="#D9FF3F"/>
+    </linearGradient>
+    <linearGradient id="scanGradient" x1="82" y1="160" x2="224" y2="160" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#D9FF3F"/>
+      <stop offset="1" stop-color="#13C8B5"/>
+    </linearGradient>
+    <filter id="softShadow" x="0" y="0" width="320" height="320" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#074C5B" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#softShadow)">
+    <rect x="48" y="48" width="224" height="224" rx="56" fill="#070A12"/>
+    <path d="M160 74L234.5 117V203L160 246L85.5 203V117L160 74Z" stroke="url(#markGradient)" stroke-width="11" stroke-linejoin="round"/>
+    <path d="M110 139.5H178C198.435 139.5 215 156.065 215 176.5V176.5" stroke="#EDE7FF" stroke-width="12" stroke-linecap="round"/>
+    <path d="M210 181.5H142C121.565 181.5 105 164.935 105 144.5V144.5" stroke="#EDE7FF" stroke-width="12" stroke-linecap="round"/>
+    <path d="M83 160H235" stroke="url(#scanGradient)" stroke-width="7" stroke-linecap="round" stroke-dasharray="4 18"/>
+    <circle cx="160" cy="74" r="13" fill="#D9FF3F"/>
+    <circle cx="234" cy="117" r="10" fill="#13C8B5"/>
+    <circle cx="234" cy="203" r="10" fill="#8B6FE8"/>
+    <circle cx="160" cy="246" r="13" fill="#13C8B5"/>
+    <circle cx="86" cy="203" r="10" fill="#D9FF3F"/>
+    <circle cx="86" cy="117" r="10" fill="#8B6FE8"/>
+    <rect x="129" y="119" width="62" height="82" rx="14" fill="#FFF8EF"/>
+    <path d="M130 133L160 158L190 133" stroke="#074C5B" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M142 188H178" stroke="#074C5B" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <g>
+    <text x="330" y="178" fill="#070A12" font-family="Inter, Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="92" font-weight="780" letter-spacing="-1">Phishexa</text>
+    <path d="M336 214H542" stroke="#13C8B5" stroke-width="7" stroke-linecap="round"/>
+    <path d="M564 214H624" stroke="#D9FF3F" stroke-width="7" stroke-linecap="round"/>
+  </g>
+</svg>
